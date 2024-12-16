@@ -1,6 +1,6 @@
-### Idiopathic Interstitial Pneumonia (IIP) Gene Expression Analysis
+### Idiopathic Interstitial Pneumonia (IPF) Gene Expression Analysis
 
-This repository contains the code and workflow used for analyzing gene expression data from the GSE32537 dataset. The goal of the project is to explore the molecular phenotyping of Idiopathic Interstitial Pneumonias (IIPs), identify differentially expressed genes (DEGs), perform Gene Set Enrichment Analysis (GSEA), and conduct Weighted Gene Co-expression Network Analysis (WGCNA) on the dataset. This is a preliminary workflow, and further biological interpretation of the identified modules is ongoing.
+This repository contains the code and workflow used for analyzing gene expression data from the GSE32537 dataset. The goal of the project is to explore the molecular phenotyping of Idiopathic Interstitial Pneumonias (IPFs), identify differentially expressed genes (DEGs), perform Gene Set Enrichment Analysis (GSEA), and conduct Weighted Gene Co-expression Network Analysis (WGCNA) on the dataset. This is a preliminary workflow, and further biological interpretation of the identified modules is ongoing.
 Dataset Information
 
     Dataset Name: GSE32537
@@ -8,14 +8,14 @@ Dataset Information
     Organism: Homo sapiens
     Experiment Type: Expression profiling by array
     Summary:
-        The dataset consists of transcriptional and miRNA profiles from lung tissue of 167 subjects with idiopathic interstitial pneumonias (IIP) and 50 non-diseased controls.
-        Goal: To investigate gene expression patterns across different clinical subtypes of IIP to identify molecular signatures associated with disease severity and prognosis.
-        Findings: A strong molecular signature associated with cilium genes was identified, linking these genes to better survival outcomes in IIP patients.
+        The dataset consists of transcriptional and miRNA profiles from lung tissue of 167 subjects with idiopathic interstitial pneumonias (IPF) and 50 non-diseased controls.
+        Goal: To investigate gene expression patterns across different clinical subtypes of IPF to identify molecular signatures associated with disease severity and prognosis.
+        Findings: A strong molecular signature associated with cilium genes was identified, linking these genes to better survival outcomes in IPF patients.
 
 ### Analysis Workflow
 
     Differential Gene Expression (DGE) Analysis:
-        Performed DGE analysis to identify common DE genes across various severity levels of IIP.
+        Performed DGE analysis to identify common DE genes across various severity levels of IPF.
 
     Gene Set Enrichment Analysis (GSEA):
         Conducted GSEA to identify enriched biological pathways among the DE genes.
